@@ -11,7 +11,7 @@ public class Main {
         order.addItem(baconCheeseBurger);
         order.addItem(new Fries());
 
-        LoyaltyDiscount loyalty = new LoyaltyDiscount(10);  // 10% discount
+        LoyaltyDiscount loyalty = new LoyaltyDiscount(10);  
         double totalCost = order.getTotalCost();
         double discountedCost = loyalty.applyDiscount(totalCost);
 
